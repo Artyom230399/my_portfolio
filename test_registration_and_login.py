@@ -43,7 +43,7 @@ if RegistrationText == 'Your account was created successfully. You are now logge
 else:
     print(Fore.RED + 'Ошибка регистрации')
 
-# Авторизация
+#   Авторизация
 
 browser.find_element(By.CSS_SELECTOR, '#leftPanel > ul > li:nth-child(8) > a').click()
 
