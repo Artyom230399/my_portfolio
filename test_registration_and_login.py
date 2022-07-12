@@ -74,7 +74,7 @@ browser.find_element(By.CSS_SELECTOR, '#customer\.username').send_keys(Username)
 browser.find_element(By.CSS_SELECTOR, '#customer\.password').send_keys(Password) # Password
 browser.find_element(By.CSS_SELECTOR, '#repeatedPassword').send_keys(Password) # Confirm
 browser.find_element(By.CSS_SELECTOR, '#customerForm > table > tbody > tr:nth-child(13) > td:nth-child(2)'
-                                      ' > input').click() # Reg
+                                      ' > input').click() # Register
 
 username_already_exists = browser.find_element(By.CSS_SELECTOR, '#customer\.username\.errors').text
 
